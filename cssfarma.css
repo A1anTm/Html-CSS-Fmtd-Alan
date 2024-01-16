@@ -220,6 +220,12 @@ main{
 
 }
 
+.caja1 .imglogo:hover{
+    height: 90px;
+    width: 90px;
+}
+
+
 .imglogo{
     height: 80px;
     width: 80px;
@@ -231,11 +237,23 @@ main{
     padding-right: 20px;
 }
 
+.imglogomed:hover{
+    height:85px;
+    width: 120px;
+}
+
 .imglogoof{
     height: 80px;
     width: 115px;
     padding-right: 10px;
 }
+
+.imglogoof:hover{
+    width: 120px;
+    height: 85px;
+}
+
+
 
 #flecharight{
     padding-right: 20px;
@@ -246,13 +264,27 @@ main{
     display: flex;
     align-items: center;
     width: 1295px;
-    height: 450px;
+    height: 410px;
     background-color: #FEFFFE;
-    margin-top: 20px;
     margin-left: 65px;
     gap: 55px;
 }
 
+.text{
+    margin-left: 65px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #FFFEFE;
+    width: 1295px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.text p{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+
+}
 
 .product1{
     background-color: #FEFFFE;
@@ -269,9 +301,6 @@ main{
 }
 */
 
-.texto{
-    padding-bottom: 85px;
-}
 
 .cajamas{
     display: grid;
@@ -295,7 +324,45 @@ main{
     height: 230px;
 }
 
+.cajaalimentos{
+    padding-left: 105px;
+    display: flex;
+    align-items: center;
+    width: 1295px;
+    height: 410px;
+    background-color: #FEFFFE;
+    margin-left: 65px;
+    margin-top: 25px;
+    gap: 55px;
+}
+
+.imgproduct2{
+    padding-left: 30px;
+    width: 200px;
+    height: 160px;
+
+}
+
+.imgproductmilk{
+    width: 150px;
+    height: 150px;
+    padding-left: 82px;
+}
+
+.cajamas1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #408EDE;
+    width: 210px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 70px;
+}
+
 footer{
+    margin-top: 40px;
     height: 160%;
     width: 100%;
     background-color: #182E5B;
@@ -315,7 +382,8 @@ footer{
 
 .categorias{
     padding-top: 100px;
-    gap: 20px;
+    gap: 40px;
+
 }
 
 .categorias p{
@@ -340,17 +408,25 @@ footer{
     font-size: 12px;
 }
 
+.footersec div a:hover{
+    color: white;
+}
+
+
 .lastbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
     background-color: #0F2450;
     height: 220px;
     width: 1400px;
     margin-left: 10px ;
+    gap: 180px;
+    padding-top: 15px;
 }
 
-.lastbox p{
-    color: rgb(174, 174, 174);
-    font-family: Helvetica, sans-serif;
-    font-size: 14px;
-    padding-top: 10px;
-    padding-left: 20px;
+.lastbox div img{
+    width: 60px;
+    height: 40px;
 }
